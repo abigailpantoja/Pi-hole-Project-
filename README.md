@@ -36,3 +36,18 @@ After Successful installment, you will get prompts that you can just hit okay an
 
 ![alt text](screenshots/Pi-hole1.png "successful installment")
 
+There is an option to use the Anti-Adblock Killer List with Pi-hole, which detects and kills any anti-adblockers some websites have implemented. You can do the same like so:
+
+![alt text](screenshots/Pi-hole2.png "anti-adblockers")
+
+Hit Ctrl+X, then Y, then Enter to quit and save.
+
+# Looking at the Interface
+
+Now you should be able to see the simple web interface by going to http://IP_of_PI-HOLE/admin.
+
+looks like this:
+
+![alt text](screenshots/Pi-hole3.png "anti-adblockers")
+
+From here, you can view some great statistics like how many ads you’ve blocked today, the percentage of traffic that’s been blocked, who are the top advertisers, etc.. You can also add/remove addresses into the Pi-hole’s white and black lists.
